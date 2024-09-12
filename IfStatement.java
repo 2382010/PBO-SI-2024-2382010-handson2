@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class IfStatement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -23,9 +22,11 @@ public class IfStatement {
             namaHari = " jumat";
         } else if (nomorHari == 7) {
             namaHari = " sabtu";
+            System.out.println( "Masukan nomor diantara 1 sampai 7");
+            System.exit(0);
         }
-        System.out.println( "Masukan nomor diantara 1 sampai 7");
-        System.exit(0);
+        System.out.println("Nama hari : " + namaHari);
+
     }
 
 }
